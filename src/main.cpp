@@ -63,8 +63,8 @@ int main(int argc, char* argv[]) {
             cout << "Error: " << msg << endl;
         }
     }
-    delete values;
-    delete labels;
+    delete[] values;
+    delete[] labels;
     // TODO: Free memory!
     return 0;
 }
